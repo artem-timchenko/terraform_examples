@@ -22,3 +22,6 @@ sudo cp ./terraform $INSTALL_PATH
 echo "Cleaning up"
 rm terraform
 rm terraform_${VERSION}_linux_amd64.zip
+
+echo "Verifying the Installation"
+terraform version
